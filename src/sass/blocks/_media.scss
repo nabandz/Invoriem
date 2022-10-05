@@ -1,6 +1,38 @@
+@media (max-width: 1440px) {
+    .container {
+        padding: 0 25px;
+    }
+    .container-carousel {
+        padding-left: 25px;
+    }
+    .case-studies {
+        &__slider {
+            width: 1400px;
+        }
+        &__item {
+            padding-left: 60px;
+        }
+        &__name {
+            bottom: 45px;
+            font-size: 90px;
+            background: linear-gradient(90deg, rgba(17,68,85,1) 60px, rgba(255,255,255,1) 60px);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        &__img {
+            width: 350px;
+        }
+    }
+}
+
+/* Tablet */
+
 @media (max-width: 1000px) {
     .container {
         padding: 0 25px;
+    }
+    .container-carousel {
+        padding-left: 25px;
     }
     .promo {
         &__title {
@@ -14,15 +46,38 @@
         &__list {
             column-gap: 60px
         }
-    } 
+    }
+    .case-studies {
+        &__slider {
+            width: 1300px;
+        }
+        &__item {
+            padding-left: 50px;
+        }
+        &__name {
+            bottom: 32px;
+            font-size: 80px;
+            background: linear-gradient(90deg, rgba(17,68,85,1) 50px, rgba(255,255,255,1) 50px);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        &__img {
+            width: 336px;
+        }
+    }
     .button_dark {
         margin-top: 50px;
     }
 }
 
+/* Mobile */
+
 @media (max-width: 600px) {
     .container {
         padding: 0 25px;
+    }
+    .container-carousel {
+        padding-left: 25px;
     }
     .promo {
         &__wrapper {
@@ -66,5 +121,35 @@
         &__button {
             display: block;
         }
+    }
+    .case-studies {
+        padding: 80px 0;
+        &__descr {
+            margin-top: 7px;
+        }
+        &__slider {
+            margin-top: 31px;
+            width: 546px;
+        }
+        &__item {
+            padding-left: 33px;
+        }
+        &__name {
+            bottom: 22px;
+            font-size: 60px;
+            background: linear-gradient(90deg, rgba(17,68,85,1) 33px, rgba(255,255,255,1) 33px);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        &__img {
+            width: 224px;
+        }
+    }
+    .title {
+        font-size: 28px;
+    }
+    .descr {
+        max-width: 291px;
+        font-size: 16px;
     }
 }

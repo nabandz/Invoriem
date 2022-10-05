@@ -4,6 +4,7 @@
         max-width: 1070px;
     }
     &__descr {
+        margin-top: 12px;
         max-width: 1070px;
     }
     &__slider {
@@ -24,7 +25,7 @@
         -webkit-text-fill-color: transparent;
     }
     &__img {
-        width: 645px;
+        max-width: 645px;
         img {
             width: 100%;
         }

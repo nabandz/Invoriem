@@ -24,7 +24,8 @@ html {
 }
 
 .container-carousel {
-    padding-left: calc((100% - 1750px) / 2 + 15px) ;
+    padding-left: calc((100% - 1750px) / 2 + 15px);
+    overflow-x: hidden;
 }
 
 .none {
