@@ -1,0 +1,43 @@
+.button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 24px;
+    padding-right: 72px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: rgba(0,0,0,0);
+    color: $main_color;
+    border: solid 1px $main_color;
+    transition: color 0.15s ease, background-color 0.15s ease;
+    &:after {
+        content: '';
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        background: url(../../icons/arrow-right-black.svg) no-repeat center;
+        right: 24px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &:hover {
+        cursor: pointer;
+        background-color: rgba($main_color, 1);
+        color: #FFFFFF;
+    }
+    &:hover:after {
+        background: url(../../icons/arrow-right-white.svg) no-repeat center;
+    }
+    &_dark {
+        margin-top: 72px;
+        padding: 14px 32px;
+        padding-right: 80px;
+        background-color: rgba($main_color, 1);
+        color: #FFFFFF;
+        &:after {
+            background: url(../../icons/arrow-right-white.svg) no-repeat center;
+        }
+        &:hover {
+            background-color: rgba(#000000, 1);
+        }
+    }
+}

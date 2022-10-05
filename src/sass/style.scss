@@ -1,0 +1,31 @@
+@import '../css/normalize.min.css';
+@import '../css/font.css';
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    font-family: 'Work Sans', 'Gilroy', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    max-width: 1720px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-carousel {
+    padding-left: calc((100% - 1750px) / 2 + 15px) ;
+}
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/case-studies';
+@import 'blocks/button';
+@import 'blocks/title';
+@import 'blocks/description';

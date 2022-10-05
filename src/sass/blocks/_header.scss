@@ -1,0 +1,25 @@
+.header {
+    margin-bottom: 170px;
+    padding: 44px 0;
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        min-width: 175px;
+        img {
+            width: 100%;
+        }
+    }
+    &__list {
+        display: flex;
+        align-items: center;
+        column-gap: 118px;
+    }
+    &__link {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 800;
+        color: $main_color;
+    }
+}

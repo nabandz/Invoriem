@@ -1,0 +1,23 @@
+.promo {
+    min-height: 100vh;
+    background-color: #E3EDF2;
+    background: url(../../img/background.jpg) center (center/cover) no-repeat;
+    &__wrapper {
+        max-width: 1060px;
+    }
+    &__title {
+        max-width: 734px;
+        font-size: 80px;
+        font-weight: 800;
+        color: $main_color;
+    }
+    &__descr {
+        margin-top: 48px;
+        font-family: 'Work Sans';
+        font-weight: 400;
+        font-size: 34px;
+        letter-spacing: -0.02em;
+        color: #1F1F1F;
+        opacity: 0.7;
+    }
+}
