@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <section class="promo none">
+    <section class="promo">
         <div class="container">
             <header class="header">
                 <nav class="header__nav">
@@ -80,7 +80,7 @@
         </div>
     </section>
 
-    <section class="about none">
+    <section class="about">
         <div class="container">
             <div class="about__title title">
                 <h2>We are Invoriem</h2>
@@ -93,7 +93,10 @@
                     <button class="about__button" id="video-btn">
                         <img src="icons/play.svg" alt="play">
                     </button>
-                    <img class="about__img" src="img/video-picture.jpg" alt="video-picture">
+                    <picture class="about__picture">
+                        <source media="(max-width: 600px)" srcset="img/video-picture-mobile.jpg">
+                        <img class="about__img" src="img/video-picture.jpg" alt="video-picture">
+                    </picture>
                     <video class="about__item" id="video-file" loop>
                         <source src="img/video.mp4" type="video/mp4">
                     </video>

@@ -1,4 +1,4 @@
-@import '../css/normalize.min.css';
+@import '../css/reset.min.css';
 @import '../css/font.css';
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
@@ -30,6 +30,10 @@ html {
 
 .none {
     display: none;
+}
+
+.hidden {
+    visibility: hidden;
 }
 
 @import 'blocks/promo';
