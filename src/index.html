@@ -14,14 +14,14 @@
         <div class="container">
             <header class="header">
                 <nav class="header__nav">
-                    <a href="#!" class="header__logo">
+                    <a href="#" class="header__logo">
                         <img src="icons/logo.svg" alt="Invoriem">
                     </a>
                     <ul class="header__list">
-                        <a href="#!" class="header__link">About us</a>
-                        <button href="#!" class="button">Let’s Talk</button>
+                        <a href="#" class="header__link">About us</a>
+                        <button href="#" class="button">Let’s Talk</button>
                     </ul>
-                    <button class="header__button" id="openMobileNav">
+                    <button class="header__button" id="menu-open">
                         <img src="icons/nav-mobile.svg" alt="nav-mobile">
                     </button>
                 </nav>
@@ -33,11 +33,11 @@
                 </div>
                 <button class="button button_dark">Let’s Talk</button>
             </div>
-            <a href="#main-secttion" class="promo__arrows">
+            <a href="#main-section" class="promo__arrows">
                 <img src="icons/arrows-down.svg" alt="arrows-down">
             </a>
             <div class="promo__wrapper-mobile">
-                <a href="#!" class="promo__logo-mobile">
+                <a href="#" class="promo__logo-mobile">
                     <img src="icons/logo.svg" alt="Invoriem">
                 </a>
                 <div class="promo__descr-mobile">
@@ -47,33 +47,33 @@
         </div>
     </section>
 
-    <section class="case-studies" id="main-secttion">
+    <section class="case-studies" id="main-section">
         <div class="container">
-            <div class="case-studies__title title">
+            <div class="title case-studies__title">
                 <h2>Case Studies</h2>
             </div>
-            <div class="case-studies__descr descr">
+            <div class="descr case-studies__descr">
                 <p>We deliver a unique and truly bespoke approach to delivering international developments to market, with over 10 years success around the world.</p>
             </div>
         </div>
         <div class="container-carousel">
-            <div class="case-studies__slider">
-                <div class="owl-carousel owl-theme">
-                    <div class="case-studies__item">
-                        <div class="case-studies__name">France</div>
-                        <img src="img/slider/slider-01.jpg" alt="01" class="case-studies__img">
+            <div class="slider">
+                <div class="owl-carousel">
+                    <div class="slider__item">
+                        <div class="slider__title">France</div>
+                        <img src="img/slider/slider-01.jpg" alt="01" class="slider__img">
                     </div>
-                    <div class="case-studies__item">
-                        <div class="case-studies__name">Moroco</div>
-                        <img src="img/slider/slider-02.jpg" alt="02" class="case-studies__img">
+                    <div class="slider__item">
+                        <div class="slider__title">Moroco</div>
+                        <img src="img/slider/slider-02.jpg" alt="02" class="slider__img">
                     </div>
-                    <div class="case-studies__item">
-                        <div class="case-studies__name">Portugal</div>
-                        <img src="img/slider/slider-03.jpg" alt="03" class="case-studies__img">
+                    <div class="slider__item">
+                        <div class="slider__title">Portugal</div>
+                        <img src="img/slider/slider-03.jpg" alt="03" class="slider__img">
                     </div>
-                    <div class="case-studies__item">
-                        <div class="case-studies__name">London</div>
-                        <img src="img/slider/slider-04.jpg" alt="04" class="case-studies__img">
+                    <div class="slider__item">
+                        <div class="slider__title">London</div>
+                        <img src="img/slider/slider-04.jpg" alt="04" class="slider__img">
                     </div>
                 </div>
             </div>
@@ -82,22 +82,22 @@
 
     <section class="about">
         <div class="container">
-            <div class="about__title title">
+            <div class="title about__title">
                 <h2>We are Invoriem</h2>
             </div>
-            <div class="about__descr descr">
+            <div class="descr about__descr">
                 <p>We fulfill international property developments</p>
             </div>
-            <div class="about__content">
-                <div class="about__video about__video-overlay">
-                    <button class="about__button" id="video-btn">
+            <div class="about__wrapper">
+                <div class="video video__overlay">
+                    <button class="video__button" id="video-button">
                         <img src="icons/play.svg" alt="play">
                     </button>
-                    <picture class="about__picture">
+                    <picture class="video__picture">
                         <source media="(max-width: 600px)" srcset="img/video-picture-mobile.jpg">
-                        <img class="about__img" src="img/video-picture.jpg" alt="video-picture">
+                        <img class="video__img" src="img/video-picture.jpg" alt="video-picture">
                     </picture>
-                    <video class="about__item" id="video-file" loop>
+                    <video class="video__item" id="video-item" loop>
                         <source src="img/video.mp4" type="video/mp4">
                     </video>
                 </div> 
@@ -114,16 +114,16 @@
                         <a href="mailto:info@invoriem.com">info@invoriem.com</a>
                     </div>
                     <div class="footer__socials">
-                        <a href="!#" class="footer__icons">
+                        <a href="#" class="footer__icon">
                             <img src="icons/social/instagram.svg" alt="instagram">
                         </a>
-                        <a href="!#" class="footer__icons">
+                        <a href="#" class="footer__icon">
                             <img src="icons/social/facebook.svg" alt="facebook">
                         </a>
-                        <a href="!#" class="footer__icons">
+                        <a href="#" class="footer__icon">
                             <img src="icons/social/twitter.svg" alt="twitter">
                         </a>
-                        <a href="!#" class="footer__icons">
+                        <a href="#" class="footer__icon">
                             <img src="icons/social/linkedIn.svg" alt="linkedIn">
                         </a>
                     </div>
@@ -132,29 +132,29 @@
         </div>
     </footer>
 
-    <section class="mobile-nav none" id="mobileNav">
+    <section class="mobile-menu hidden" id="menu-mobile">
         <div class="container">
-            <div class="mobile-nav__header">
-                <a href="#!">
-                    <img src="icons/logo.svg" alt="logo" class="mobile-nav__logo">
+            <div class="mobile-menu__header">
+                <a href="#">
+                    <img src="icons/logo.svg" alt="logo" class="mobile-menu__logo">
                 </a>
-                <button class="mobile-nav__button" id="closeMobileNav">
+                <button class="mobile-menu__button" id="menu-close">
                     <img src="icons/nav-mobile.svg" alt="nac">
                 </button>
             </div>
-            <nav class="mobile-nav__list">
-                <ul>
-                    <li><a href="#">Hello</a></li>
-                    <li><a href="#">Bonjour</a></li>
-                    <li><a href="#">Olá</a></li>
-                    <li><a href="#">Marhabaan</a></li>
+            <nav class="mobile-menu__nav">
+                <ul class="mobile-menu__list">
+                    <li><a class="mobile-menu__link" href="#">Hello</a></li>
+                    <li><a class="mobile-menu__link" href="#">Bonjour</a></li>
+                    <li><a class="mobile-menu__link" href="#">Olá</a></li>
+                    <li><a class="mobile-menu__link" href="#">Marhabaan</a></li>
                 </ul>
             </nav>
-            <div class="mobile-nav__contacts">
-                <div class="mobile-nav__title">Contact us</div>
-                <a href="mailto:info@invoriem.com" class="mobile-nav__email">info@invoriem.com</a>
-                <a href="tel:+55512345258" class="mobile-nav__phone">+555 1234 52 58</a>
-                <address class="mobile-nav__address">
+            <div class="mobile-menu__contacts">
+                <div class="mobile-menu__title">Contact us</div>
+                <a href="mailto:info@invoriem.com" class="mobile-menu__email">info@invoriem.com</a>
+                <a href="tel:+55512345258" class="mobile-menu__phone">+555 1234 52 58</a>
+                <address class="mobile-menu__address">
                     3517 W. Gray St.<br>
                     Utica, Pennsylvania<br>
                     57867
@@ -163,22 +163,21 @@
             <div class="mobile-footer">
                 <a href="mailto:info@invoriem.com" class="mobile-footer__email">info@invoriem.com</a>
                 <div class="mobile-footer__socials">
-                    <a href="!#" class="mobile-footer__icons">
+                    <a href="#" class="mobile-footer__icon">
                         <img src="icons/social/instagram.svg" alt="instagram">
                     </a>
-                    <a href="!#" class="mobile-footer__icons">
+                    <a href="#" class="mobile-footer__icon">
                         <img src="icons/social/facebook.svg" alt="facebook">
                     </a>
-                    <a href="!#" class="mobile-footer__icons">
+                    <a href="#" class="mobile-footer__icon">
                         <img src="icons/social/twitter.svg" alt="twitter">
                     </a>
-                    <a href="!#" class="mobile-footer__icons">
+                    <a href="#" class="mobile-footer__icon">
                         <img src="icons/social/linkedIn.svg" alt="linkedIn">
                     </a>
                 </div>
                 <p class="mobile-footer__copyright">Copyright © 2020 Invoriem</p>
             </div>
-
         </div>
     </section>
 

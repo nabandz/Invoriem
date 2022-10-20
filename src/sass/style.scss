@@ -28,10 +28,6 @@ html {
     overflow-x: hidden;
 }
 
-.none {
-    display: none !important;
-}
-
 .hidden {
     visibility: hidden;
 }
@@ -43,9 +39,11 @@ html {
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/case-studies';
+@import 'blocks/slider';
 @import 'blocks/about';
+@import 'blocks/video';
 @import 'blocks/footer';
-@import 'blocks/mobile-nav';
+@import 'blocks/mobile-menu';
 @import 'blocks/button';
 @import 'blocks/title';
 @import 'blocks/description';

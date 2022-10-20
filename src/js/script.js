@@ -1,3 +1,4 @@
+/* Slider */
 $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
         dots: false,
@@ -16,36 +17,36 @@ $(document).ready(function(){
     });
 });
 
-  /* Video */
-const videoButton = document.querySelector('#video-btn');
-const videoImg = document.querySelector('.about__img');
-const videoWrapper = document.querySelector('.about__video');
-const video = document.querySelector('#video-file');
+/* Video */
+const videoButton = document.querySelector('#video-button');
+const videoImg = document.querySelector('.video__img');
+const videoWrapper = document.querySelector('.video');
+const video = document.querySelector('#video-item');
 
 videoWrapper.addEventListener('click', function() {
 if (video.paused) {
     videoImg.classList.add('hidden');
-    videoButton.classList.add('none');
-    videoWrapper.classList.remove('about__video-overlay');
+    videoButton.classList.add('hidden');
+    videoWrapper.classList.remove('video__overlay');
     video.play();
 } else {
-    videoButton.classList.remove('none');
-    videoWrapper.classList.add('about__video-overlay');
+    videoButton.classList.remove('hidden');
+    videoWrapper.classList.add('video__overlay');
     video.pause();
 }
 });
 
-/* Mobile Nav */
-const openNavbtn = document.querySelector('#openMobileNav');
-const closeNavbtn = document.querySelector('#closeMobileNav');
-const mobileNav = document.querySelector('#mobileNav');
+/* Mobile menu */
+const openButton = document.querySelector('#menu-open');
+const closeButton = document.querySelector('#menu-close');
+const mobileMenu = document.querySelector('#menu-mobile');
 
-openNavbtn.onclick = function() {
-    mobileNav.classList.remove('none');
+openButton.addEventListener('click', function() {
+    mobileMenu.classList.remove('hidden');
     document.body.classList.add('no-scroll');
-}
+})
 
-closeNavbtn.onclick = function() {
-    mobileNav.classList.add('none');
+closeButton.addEventListener('click', function() {
+    mobileMenu.classList.add('hidden');
     document.body.classList.remove('no-scroll');
-}
+})

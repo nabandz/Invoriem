@@ -7,28 +7,4 @@
         margin-top: 12px;
         max-width: 1070px;
     }
-    &__slider {
-        margin-top: 100px;
-    }
-    &__item {
-        position: relative;
-        padding-left: 80px;
-    }
-    &__name {
-        position: absolute;
-        left: 0;
-        bottom: 104px;
-        font-size: 140px;
-        line-height: 164px;
-        font-weight: 800;
-        background: linear-gradient(90deg, rgba(17,68,85,1) 80px, rgba(255,255,255,1) 80px);
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    &__img {
-        max-width: 645px;
-        img {
-            width: 100%;
-        }
-    }
 }

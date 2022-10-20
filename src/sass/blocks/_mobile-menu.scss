@@ -1,12 +1,12 @@
-.mobile-nav {
+.mobile-menu {
     padding: 44px 0 32px 0;
-    background-color: #FFFFFF;
     position: fixed;
     z-index: 10;
     left: 0;
     top: 0;
     width: 100%;
     min-height: 100vh;
+    background-color: #FFFFFF;
     &__header {
         display: flex;
         justify-content: space-between;
@@ -18,7 +18,7 @@
     &__button {
         background-color: white;
     }
-    &__list {
+    &__nav {
         margin-top: 66px;
         a {
             text-decoration: none;
@@ -80,7 +80,7 @@
     &__socials {
         margin-top: 16px;
     }
-    &__icons {
+    &__icon {
         text-decoration: none;
         img {
             width: 24px;
