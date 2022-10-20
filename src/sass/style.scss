@@ -29,11 +29,15 @@ html {
 }
 
 .none {
-    display: none;
+    display: none !important;
 }
 
 .hidden {
     visibility: hidden;
+}
+
+.no-scroll {
+    overflow-y: hidden;
 }
 
 @import 'blocks/promo';

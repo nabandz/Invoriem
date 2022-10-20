@@ -1,5 +1,5 @@
 .mobile-nav {
-    padding: 50px 24px 32px;
+    padding: 44px 0 32px 0;
     background-color: #FFFFFF;
     position: fixed;
     z-index: 10;
@@ -15,7 +15,11 @@
         max-width: 175px;
         height: 20px;
     }
+    &__button {
+        background-color: white;
+    }
     &__list {
+        margin-top: 66px;
         a {
             text-decoration: none;
             margin-top: 66px;
@@ -75,8 +79,11 @@
     }
     &__socials {
         margin-top: 16px;
-        a {
-            text-decoration: none;
+    }
+    &__icons {
+        text-decoration: none;
+        img {
+            width: 24px;
         }
     }
     &__copyright {
