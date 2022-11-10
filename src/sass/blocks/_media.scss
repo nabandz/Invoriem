@@ -1,7 +1,4 @@
 @media (max-width: 1440px) {
-    .container {
-        padding: 0 25px;
-    }
     .container-carousel {
         padding-left: 25px;
     }
@@ -22,28 +19,31 @@
         }
     }
 }
-
-/* Tablet */
-
-@media (max-width: 1000px) {
-    .container {
-        padding: 0 25px;
+@media (max-width: 1200px) {
+    .title {
+        font-size: 65px;
     }
-    .container-carousel {
-        padding-left: 25px;
+    .descr {
+        font-size: 25px;
+    }
+    .button_dark {
+        margin-top: 50px;
     }
     .promo {
         &__title {
-            font-size: 50px;
+            font-size: 65px;
             }
             &__descr {
-                font-size: 24px;
+                font-size: 25px;
             }
     }
     .header {
         &__list {
             column-gap: 60px
         }
+    }
+    .case-studies {
+        padding: 120px 0;
     }
     .slider {
         width: 1300px;
@@ -61,6 +61,9 @@
         &__img {
             width: 336px;
         }
+    }
+    .about {
+        padding: 120px 0;
     }
     .footer {
         padding: 32px;
@@ -90,19 +93,57 @@
             width: 24px;
         }
     }
-    .button_dark {
+}
+
+@media (max-width: 992px) {
+    .title {
+        font-size: 60px;
+    }
+    .descr {
+        font-size: 23px;
+    }
+    .promo {
+        &__title {
+            font-size: 60px;
+            }
+            &__descr {
+                font-size: 23px;
+            }
+    }
+    .slider {
         margin-top: 50px;
+    }
+    .about {
+        &__wrapper {
+            margin-top: 50px;
+        }
     }
 }
 
-/* Mobile */
-
-@media (max-width: 600px) {
-    .container {
-        padding: 0 25px;
+@media (max-width: 768px) {
+    .title {
+        font-size: 50px;
     }
-    .container-carousel {
-        padding-left: 25px;
+    .descr {
+        font-size: 20px;
+    }
+    .promo {
+        &__title {
+            font-size: 50px;
+            }
+            &__descr {
+                font-size: 20px;
+            }
+    }
+}
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 32px;
+    }
+    .descr {
+        max-width: 291px;
+        font-size: 16px;
     }
     .promo {
         &__wrapper {
@@ -189,12 +230,5 @@
             object-fit: cover;
             vertical-align: top;
         }
-    }
-    .title {
-        font-size: 32px;
-    }
-    .descr {
-        max-width: 291px;
-        font-size: 16px;
     }
 }
